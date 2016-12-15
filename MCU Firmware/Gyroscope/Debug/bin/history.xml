@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=1.map -O0 --gc-sections -LE:\DUMP\CooCox\CoIDE1\configuration\ProgramData\Gyroscope -TE:\DUMP\CooCox\CoIDE1\configuration\ProgramData\Gyroscope/arm-gcc-link.ld -g">
+      <target file="1.elf" lastModified="1590285d41c">
+         <source file="..\obj\HMC5883L.o" lastModified="1590285cc6b"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1590285cce8"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1590285cd37"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1590285cde2"/>
+         <source file="..\obj\main.o" lastModified="1590285ceec"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1590285cfc7"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1590285d082"/>
+         <source file="..\obj\syscalls.o" lastModified="1590285d0f0"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="1590285d1bb"/>
+      </target>
+   </processor>
+</history>

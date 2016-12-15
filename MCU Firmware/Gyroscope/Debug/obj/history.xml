@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F103RB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IC:\Documents and Settings\Administrator\Desktop\MCU Firmware\cmsis_boot -IC:\Documents and Settings\Administrator\Desktop\MCU Firmware\cmsis -IC:\Documents and Settings\Administrator -IC:\Documents and Settings\Administrator\Desktop\MCU Firmware\stm_lib\inc -IC:\Documents and Settings\Administrator\Desktop\MCU Firmware\stm_lib -IC:\Documents and Settings\Administrator\Desktop -IC:\Documents and Settings\Administrator\Desktop\MCU Firmware">
+      <target file="syscalls.o" lastModified="1590285d0f0">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="157c075fb20"/>
+      </target>
+      <target file="HMC5883L.o" lastModified="1590285cc6b">
+         <source file="..\..\..\HMC5883L.c" lastModified="157be33bbe0"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1590285d1bb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="157bd8e2d10"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1590285cce8">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="157bd8e1d70"/>
+      </target>
+      <target file="main.o" lastModified="1590285ceec">
+         <source file="..\..\..\main.c" lastModified="1590285a1a2"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1590285cde2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="157bd8e2d10"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1590285d082">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="157bd8e4480"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1590285cfc7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="157bd8e1d70"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1590285cd37">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="157bd8e1d70"/>
+      </target>
+   </processor>
+</history>
