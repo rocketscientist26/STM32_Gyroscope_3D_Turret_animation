@@ -5,7 +5,7 @@
 ###How to...
 1. Connect modules as shown on "Connection.png"
 2. Flash firmware into MCU
-3. Run "Modified GodotEngine godot-2.1-stable/bin/godot.x11.tools.64" on 64 bit Linux
+3. Download from [here](https://yadi.sk/d/DL0kE1k933ecdX), unpack and run "godot.x11.tools.64" binary file on 64 bit Linux, or build from sources
 4. Open project "GodotEngine Gyroscope Project" and run
 5. Turret will rotate according to gyroscope rotation
 
