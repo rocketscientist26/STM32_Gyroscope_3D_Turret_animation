@@ -1,4 +1,6 @@
-![GODOT](/logo.png)
+:warning: Please note, This Godot Engine is modified for "STM32 Gyroscope 3D Turret animation" project, Build on Linux 
+
+![GODOT](./logo.png)
 
 https://godotengine.org
 
